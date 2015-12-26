@@ -115,6 +115,7 @@ void draw()
     hpDisplay.updateWithFighterHP(fighter.hp);
   } else if (state == GameState.END) {
     bg.draw();
+    bullet[0]=null; bullet[1]=null;  bullet[2]=null; bullet[3]=null; bullet[4]=null ;  
   }
 }
 
